@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Plane } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/aircraft-flight.jpg";
 import logo from "@/assets/sae-aero-logo.png";
@@ -27,17 +26,7 @@ const HeroSection = () => {
       ease: "easeInOut"
     }} />
 
-    {/* Floating aircraft icon */}
-    <motion.div className="absolute top-20 right-20 text-primary/30" animate={{
-      y: [-10, 10, -10],
-      rotate: [-2, 2, -2]
-    }} transition={{
-      duration: 5,
-      repeat: Infinity,
-      ease: "easeInOut"
-    }}>
-      <Plane className="w-32 h-32" />
-    </motion.div>
+
 
     {/* Content */}
     <div className="relative z-10 container mx-auto px-6 text-center">
