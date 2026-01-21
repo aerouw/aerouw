@@ -1,0 +1,279 @@
+{
+    "defaults": {
+        "teamLinkedInUrl": "https://www.linkedin.com/company/sae-aero-uw/",
+        "headshotBasePath": "/assets",
+        "headshotSuffix": "-headshot",
+        "headshotExtensionDefault": "jpg"
+    },
+    "websiteGridStructure": [
+        [
+            "President",
+            "President",
+            "Business Director"
+        ],
+        [
+            "Chief Engineer - Aerodynamics",
+            "Chief Engineer - Aerodynamics",
+            "Chief Engineer - Structures"
+        ],
+        [
+            "Fuselage Fabrication",
+            "Aerodynamics Fabrication",
+            "Payload Optimization"
+        ],
+        [
+            "Tail Lead",
+            "Tail Lead",
+            "Landing Gear"
+        ],
+        [
+            "Flight Stability",
+            "Computational Fluid Dyanmics",
+            "Computational Fluid Dyanmics"
+        ],
+        [
+            null,
+            "Electronics",
+            "Marketing"
+        ]
+    ],
+    "ui": {
+        "showAllButtonLabelTemplate": "Show all team leads (+{count})",
+        "collapsed": {
+            "visibleRoles": [
+                "President",
+                "Vice-President",
+                "Business Director"
+            ]
+        },
+        "expanded": {
+            "gridColumnsDesktop": 3,
+            "gridColumnsTablet": 2,
+            "gridColumnsMobile": 1,
+            "orderByGridThenName": true
+        }
+    },
+    "members": [
+        {
+            "role": "President",
+            "name": "Jason Kuehne",
+            "hometown": "San Francisco, CA",
+            "major": "Engineering Mechanics and Aeronautics",
+            "email": "jkuehne@wisc.edu",
+            "year": 5,
+            "headshot": {
+                "filename": "jason-kuehne-headshot.jpg",
+                "alt": "Jason Kuehne headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Vice-President",
+            "name": "Nicholas Rienstra",
+            "hometown": "Sun Prairie, WI",
+            "major": "Engineering Mechanics and Aeronautics",
+            "email": "nrienstra@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "nicholas-rienstra-headshot.jpg",
+                "alt": "Nicholas Rienstra headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Chief Engineer - Aerodynamics",
+            "name": "Gabe Bodoh",
+            "hometown": "Austin, TX",
+            "major": "Mechanical Engineering",
+            "email": "gbodoh@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "gabe-bodoh-headshot.jpg",
+                "alt": "Gabe Bodoh headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Chief Engineer - Aerodynamics",
+            "name": "Julius Nurse",
+            "hometown": "Minnetonka, MN",
+            "major": "Engineering Mechanics and Aeronautics",
+            "email": "jnurse@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "julius-nurse-headshot.jpg",
+                "alt": "Julius Nurse headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Chief Engineer - Structures",
+            "name": "Bryan Brady",
+            "hometown": "Egg Harbor, NY",
+            "major": "Engineering Mechanics and Aeronautics",
+            "email": "bmbrady2@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "bryan-brady-headshot.jpg",
+                "alt": "Bryan Brady headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Business Director",
+            "name": "Drake Rander",
+            "hometown": "Woodbury, MN",
+            "major": "Mechanical Engineering",
+            "email": "acbrion@wisc.edu",
+            "year": 5,
+            "headshot": {
+                "filename": "drake-rander-headshot.jpg",
+                "alt": "Drake Rander headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Payload Optimization",
+            "name": "Neil Yihe Zhu",
+            "hometown": "San Diego, CA",
+            "major": "Mechanical Engineering",
+            "email": "yzhu574@wisc.edu",
+            "year": 1,
+            "headshot": {
+                "filename": "neil-zhu-headshot.jpg",
+                "alt": "Neil Yihe Zhu headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Marketing",
+            "name": "Abigail Truscott",
+            "hometown": "Wuanakee, WI",
+            "major": "Engineering Mechanics and Aeronautics",
+            "email": "altruscott@wisc.edu",
+            "year": 3,
+            "headshot": {
+                "filename": "abigail-truscott-headshot.jpg",
+                "alt": "Abigail Truscott headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Aerodynamics Fabrication",
+            "name": "Alyssa Kosmicki",
+            "hometown": "Edgerton, WI",
+            "major": "Engineering Mechanics",
+            "email": "atkosmicki@wisc.edu",
+            "year": 2,
+            "headshot": {
+                "filename": "alyssa-kosmicki-headshot.jpg",
+                "alt": "Alyssa Kosmicki headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Flight Stability",
+            "name": "Charlie Jarvis",
+            "hometown": "Hartland, WI",
+            "major": "Engineering Mechanics and Aeronautics",
+            "email": "cbjarvis@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "charlie-jarvis-headshot.jfif",
+                "alt": "Charlie Jarvis headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Computational Fluid Dyanmics",
+            "name": "Ian Hoffman",
+            "hometown": "",
+            "major": "Graduate Engineering Mechanics and Aeronautics",
+            "email": "iphoffman@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "ian-hoffman-headshot.jpg",
+                "alt": "Ian Hoffman headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Computational Fluid Dyanmics",
+            "name": "Noah Kleven",
+            "hometown": "",
+            "major": "Engineering Mechanics and Aeronautics",
+            "email": "nkleven@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "noah-kleven-headshot.jpg",
+                "alt": "Noah Kleven headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Fuselage Fabrication",
+            "name": "Jack McCaffrey",
+            "hometown": "Woodbury, MN",
+            "major": "Mechanical Engineering",
+            "email": "jrmccaffrey@wisc.edu",
+            "year": 2,
+            "headshot": {
+                "filename": "jack-mccafrey-headshot.jpg",
+                "alt": "Jack McCaffrey headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Electronics",
+            "name": "Jaymes Christie",
+            "hometown": "",
+            "major": "Electrical Engineering",
+            "email": "jechristie@wisc.edu",
+            "year": 2,
+            "headshot": {
+                "filename": "jaymes-christie-headshot.jpg",
+                "alt": "Jaymes Christie headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Landing Gear",
+            "name": "Prithvi S Venkatesh",
+            "hometown": "Hopkinton, MA",
+            "major": "Mechanical Engineering",
+            "email": "psvenkatesh@wisc.edu",
+            "year": 5,
+            "headshot": {
+                "filename": "prithvi-s-venkatesh-headshot.jpg",
+                "alt": "Prithvi S Venkatesh headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Tail Lead",
+            "name": "Amanda Tichenor",
+            "hometown": "St Louis, MO",
+            "major": "Engineering Mechanics and Aeronautics",
+            "email": "ahtichenor@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "amanda-tichenor-headshot.jpg",
+                "alt": "Amanda Tichenor headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        },
+        {
+            "role": "Tail Lead",
+            "name": "Ian Blake",
+            "hometown": "",
+            "major": "Mechanical Engineering",
+            "email": "igblake@wisc.edu",
+            "year": 4,
+            "headshot": {
+                "filename": "ian-blake-headshot.jpg",
+                "alt": "Ian Blake headshot"
+            },
+            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+        }
+    ]
+}
