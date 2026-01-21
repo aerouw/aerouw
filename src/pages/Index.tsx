@@ -10,6 +10,7 @@ import TeamSection from "@/components/TeamSection";
 import JoinSection from "@/components/JoinSection";
 import SponsorsSection from "@/components/SponsorsSection";
 import Footer from "@/components/Footer";
+import DonationPopup from "@/components/DonationPopup";
 
 const Index = () => {
   return (
@@ -29,6 +30,7 @@ const Index = () => {
         <FAQSection />
       </main>
       <Footer />
+      <DonationPopup />
     </div>
   );
 };
