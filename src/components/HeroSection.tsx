@@ -89,8 +89,8 @@ const HeroSection = () => {
               <span>Join the Team</span>
             </a>
           </Button>
-          <Button variant="heroSecondary" size="xl">
-            Sponsor Us
+          <Button variant="heroSecondary" size="xl" asChild>
+            <a href="#sponsors">Sponsor Us</a>
           </Button>
         </motion.div>
       </motion.div>
