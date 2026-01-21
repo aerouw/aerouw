@@ -8,13 +8,6 @@ const DonationPopup = () => {
     const [isDismissed, setIsDismissed] = useState(false);
 
     useEffect(() => {
-        // Check if user has already dismissed the popup
-        const dismissed = localStorage.getItem("donation-popup-dismissed");
-        if (dismissed) {
-            setIsDismissed(true);
-            return;
-        }
-
         // Show popup after 10 seconds
         const timer = setTimeout(() => {
             setIsVisible(true);
@@ -26,7 +19,6 @@ const DonationPopup = () => {
     const handleDismiss = () => {
         setIsVisible(false);
         setIsDismissed(true);
-        localStorage.setItem("donation-popup-dismissed", "true");
     };
 
     if (isDismissed) return null;
@@ -53,7 +45,6 @@ const DonationPopup = () => {
                     {/* Content */}
                     <div className="space-y-4">
                         <div className="flex items-start gap-3">
-                            <span className="text-xl" role="img" aria-label="airplane">✈️</span>
                             <h3 className="font-display text-base font-bold leading-tight">
                                 Help Send UW Engineers to Competition
                             </h3>

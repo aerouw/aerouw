@@ -173,7 +173,7 @@ const TeamSection = () => {
         </motion.div>
 
         <Dialog open={selectedLeader !== null} onOpenChange={(open) => !open && setSelectedLeader(null)}>
-          <DialogContent className="max-w-md bg-background/95 backdrop-blur-2xl border-primary/20 p-0 overflow-hidden rounded-3xl gap-0">
+          <DialogContent className="max-w-[90vw] md:max-w-md bg-background/95 backdrop-blur-2xl border-primary/20 p-0 overflow-hidden rounded-3xl gap-0">
             {selectedLeader && (
               <div className="flex flex-col items-center">
                 {/* Header Image Area */}
@@ -189,29 +189,29 @@ const TeamSection = () => {
                 </div>
 
                 {/* Info Area */}
-                <div className="w-full px-8 pb-10 -mt-16 relative z-10 text-center">
-                  <h2 className="font-display text-3xl mb-1 text-foreground">{selectedLeader.name}</h2>
-                  <p className="text-primary font-display text-xs tracking-[0.2em] uppercase mb-8">{selectedLeader.role}</p>
+                <div className="w-full px-6 md:px-8 pb-8 md:pb-10 -mt-12 md:-mt-16 relative z-10 text-center">
+                  <h2 className="font-display text-2xl md:text-3xl mb-1 text-foreground">{selectedLeader.name}</h2>
+                  <p className="text-primary font-display text-[10px] md:text-xs tracking-[0.2em] uppercase mb-6 md:mb-8">{selectedLeader.role}</p>
 
-                  <div className="space-y-4 mb-10">
+                  <div className="space-y-4 mb-8 md:mb-10">
                     <div className="flex flex-col items-center">
                       <span className="text-[10px] uppercase tracking-widest text-muted-foreground/60 mb-1">Hometown</span>
-                      <span className="text-lg font-light">{selectedLeader.hometown}</span>
+                      <span className="text-base md:text-lg font-light">{selectedLeader.hometown}</span>
                     </div>
                     <div className="flex flex-col items-center">
                       <span className="text-[10px] uppercase tracking-widest text-muted-foreground/60 mb-1">Year & Major</span>
-                      <span className="text-lg font-light">{selectedLeader.year} • {selectedLeader.major}</span>
+                      <span className="text-base md:text-lg font-light">{selectedLeader.year} • {selectedLeader.major}</span>
                     </div>
                   </div>
 
-                  <div className="flex gap-4 justify-center">
-                    <Button asChild variant="outline" className="rounded-full px-8 border-primary/20 hover:bg-primary/10 hover:border-primary/50">
+                  <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
+                    <Button asChild variant="outline" className="rounded-full px-6 md:px-8 border-primary/20 hover:bg-primary/10 hover:border-primary/50 text-sm">
                       <a href={`mailto:${selectedLeader.email}`}>
                         <Mail className="w-4 h-4 mr-2" />
                         Email
                       </a>
                     </Button>
-                    <Button asChild variant="outline" className="rounded-full px-8 border-primary/20 hover:bg-primary/10 hover:border-primary/50">
+                    <Button asChild variant="outline" className="rounded-full px-6 md:px-8 border-primary/20 hover:bg-primary/10 hover:border-primary/50 text-sm">
                       <a href={selectedLeader.linkedin} target="_blank" rel="noopener noreferrer">
                         <Linkedin className="w-4 h-4 mr-2" />
                         LinkedIn

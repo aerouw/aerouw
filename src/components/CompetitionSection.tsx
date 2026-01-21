@@ -240,17 +240,17 @@ const CompetitionSection = () => {
         </div>
 
         <Dialog open={activeConstraint !== null} onOpenChange={(open) => !open && setActiveConstraint(null)}>
-          <DialogContent className="max-w-2xl bg-card/95 backdrop-blur-xl border-primary/20 text-foreground p-0 overflow-hidden gap-0">
+          <DialogContent className="max-w-[95vw] md:max-w-2xl bg-card/95 backdrop-blur-xl border-primary/20 text-foreground p-0 overflow-hidden gap-0">
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent opacity-50" />
 
-            <DialogHeader className="p-8 pb-4 bg-muted/20">
-              <DialogTitle className="text-2xl font-display font-bold text-foreground flex items-center gap-4 uppercase tracking-wide">
+            <DialogHeader className="p-6 md:p-8 pb-4 bg-muted/20">
+              <DialogTitle className="text-xl md:text-2xl font-display font-bold text-foreground flex items-center gap-4 uppercase tracking-wide">
                 {activeConstraint !== null && (
                   <>
-                    <div className="p-3 rounded-lg bg-primary/10 border border-primary/20">
+                    <div className="p-2 md:p-3 rounded-lg bg-primary/10 border border-primary/20">
                       {(() => {
                         const Icon = constraints[activeConstraint].icon;
-                        return <Icon className="w-6 h-6 text-primary" />;
+                        return <Icon className="w-5 h-5 md:w-6 md:h-6 text-primary" />;
                       })()}
                     </div>
                     <span className="text-balance">{constraints[activeConstraint].modalTitle}</span>
@@ -260,7 +260,7 @@ const CompetitionSection = () => {
             </DialogHeader>
 
             {activeConstraint !== null && (
-              <div className="p-8 pt-4 space-y-8 max-h-[70vh] overflow-y-auto custom-scrollbar">
+              <div className="p-6 md:p-8 pt-4 space-y-6 md:space-y-8 max-h-[70vh] overflow-y-auto custom-scrollbar">
                 {/* Math Section for Performance */}
                 {constraints[activeConstraint].math && (
                   <div className="bg-muted/30 p-6 rounded-lg border border-primary/10 font-mono text-sm space-y-3 relative overflow-hidden">
