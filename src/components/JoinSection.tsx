@@ -4,6 +4,8 @@ import { Rocket, HandCoins, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import teamMeeting1 from "@/assets/team-meeting1.png";
 
+import { JoinNowModal } from "@/components/JoinNowModal";
+
 const JoinSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -67,8 +69,8 @@ const JoinSection = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.4 }}
           >
-            <Button variant="hero" size="xl" className="group min-w-[200px]" asChild>
-              <a href="mailto:jkuehne@wisc.edu,nrienstra@wisc.edu,rrander@wisc.edu?subject=SAE%20Aero%20UW%20Join%20Request&body=Name:%0AYear:%0AMajor:%0APhone:%0A">
+            <JoinNowModal>
+              <Button variant="hero" size="xl" className="group min-w-[200px]">
                 <Users className="w-5 h-5 mr-2" />
                 <span>Join Now</span>
                 <motion.span
@@ -78,8 +80,8 @@ const JoinSection = () => {
                 >
                   →
                 </motion.span>
-              </a>
-            </Button>
+              </Button>
+            </JoinNowModal>
             <Button variant="heroSecondary" size="xl" className="min-w-[200px]" asChild>
               <a href="#sponsors">
                 <HandCoins className="w-5 h-5 mr-2" />
