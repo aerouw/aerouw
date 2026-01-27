@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Instagram, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/sae-aero-logo.png";
+import { JoinNowModal } from "@/components/JoinNowModal";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -90,11 +91,11 @@ const Navigation = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
-            <Button variant="cta" size="sm" asChild>
-              <a href="mailto:jkuehne@wisc.edu,nrienstra@wisc.edu,rrander@wisc.edu?subject=SAE%20Aero%20UW%20Join%20Request&body=Name:%0AYear:%0AMajor:%0APhone:%0A">
+            <JoinNowModal>
+              <Button variant="cta" size="sm">
                 Join the Team
-              </a>
-            </Button>
+              </Button>
+            </JoinNowModal>
           </motion.div>
 
           {/* Mobile Menu Button */}
@@ -128,11 +129,11 @@ const Navigation = () => {
                   {link.name}
                 </a>
               ))}
-              <Button variant="cta" className="mt-4" asChild>
-                <a href="mailto:jkuehne@wisc.edu,nrienstra@wisc.edu,rrander@wisc.edu?subject=SAE%20Aero%20UW%20Join%20Request&body=Name:%0AYear:%0AMajor:%0APhone:%0A">
+              <JoinNowModal>
+                <Button variant="cta" className="mt-4">
                   Join the Team
-                </a>
-              </Button>
+                </Button>
+              </JoinNowModal>
             </div>
           </motion.div>
         )}

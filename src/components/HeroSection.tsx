@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/aircraft-flight.jpg";
 import logo from "@/assets/sae-aero-logo.png";
+import { JoinNowModal } from "@/components/JoinNowModal";
+
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
     {/* Background image */}
@@ -84,11 +86,11 @@ const HeroSection = () => {
           duration: 0.6,
           delay: 0.8
         }}>
-          <Button variant="hero" size="xl" className="group" asChild>
-            <a href="mailto:jkuehne@wisc.edu,nrienstra@wisc.edu,rrander@wisc.edu?subject=SAE%20Aero%20UW%20Join%20Request&body=Name:%0AYear:%0AMajor:%0APhone:%0A">
+          <JoinNowModal>
+            <Button variant="hero" size="xl" className="group">
               <span>Join the Team</span>
-            </a>
-          </Button>
+            </Button>
+          </JoinNowModal>
           <Button variant="heroSecondary" size="xl" asChild>
             <a href="#sponsors">Sponsor Us</a>
           </Button>

@@ -80,7 +80,8 @@ ${data.note || 'N/A'}
 
         if (error) {
             console.error('Resend error:', error);
-            return res.status(500).json({ ok: false, message: 'Failed to send email' });
+            // Return actual error message for debugging
+            return res.status(500).json({ ok: false, message: 'Resend Error: ' + error.message });
         }
 
         return res.status(200).json({ ok: true });
