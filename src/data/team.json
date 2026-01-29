@@ -65,7 +65,7 @@
                 "filename": "jason-kuehne-headshot.jpg",
                 "alt": "Jason Kuehne headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/jason-kuehne/"
         },
         {
             "role": "Vice-President",
@@ -78,7 +78,8 @@
                 "filename": "nicholas-rienstra-headshot.jpg",
                 "alt": "Nicholas Rienstra headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/nicholas-rienstra/
+ "
         },
         {
             "role": "Chief Engineer - Aerodynamics",
@@ -91,12 +92,12 @@
                 "filename": "gabe-bodoh-headshot.jpg",
                 "alt": "Gabe Bodoh headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/gabriel-bodoh/"
         },
         {
             "role": "Chief Engineer - Aerodynamics",
             "name": "Julius Nurse",
-            "hometown": "Minnetonka, MN",
+            "hometown": "Brooklyn Center, MN",
             "major": "Engineering Mechanics and Aeronautics",
             "email": "jnurse@wisc.edu",
             "year": 4,
@@ -104,12 +105,12 @@
                 "filename": "julius-nurse-headshot.jpg",
                 "alt": "Julius Nurse headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/julius-nurse/"
         },
         {
             "role": "Chief Engineer - Structures",
             "name": "Bryan Brady",
-            "hometown": "Egg Harbor, NY",
+            "hometown": "Oyster Bay, NY",
             "major": "Engineering Mechanics and Aeronautics",
             "email": "bmbrady2@wisc.edu",
             "year": 4,
@@ -117,7 +118,7 @@
                 "filename": "bryan-brady-headshot.jpg",
                 "alt": "Bryan Brady headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/bryan-brady-858145277/"
         },
         {
             "role": "Business Director",
@@ -130,7 +131,7 @@
                 "filename": "drake-rander-headshot.jpg",
                 "alt": "Drake Rander headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/robert-rander/"
         },
         {
             "role": "Payload Optimization",
@@ -143,12 +144,12 @@
                 "filename": "neil-zhu-headshot.jpg",
                 "alt": "Neil Yihe Zhu headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/neil-zhu-14072b247/"
         },
         {
             "role": "Marketing",
             "name": "Abigail Truscott",
-            "hometown": "Wuanakee, WI",
+            "hometown": "Waunakee, WI",
             "major": "Engineering Mechanics and Aeronautics",
             "email": "altruscott@wisc.edu",
             "year": 3,
@@ -156,7 +157,7 @@
                 "filename": "abigail-truscott-headshot.jpg",
                 "alt": "Abigail Truscott headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/abigail-truscott-304b732ab/"
         },
         {
             "role": "Aerodynamics Fabrication",
@@ -169,7 +170,7 @@
                 "filename": "alyssa-kosmicki-headshot.jpg",
                 "alt": "Alyssa Kosmicki headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/alyssa-kosmicki-/"
         },
         {
             "role": "Flight Stability",
@@ -182,7 +183,7 @@
                 "filename": "charlie-jarvis-headshot.jfif",
                 "alt": "Charlie Jarvis headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/charliebjarvis/"
         },
         {
             "role": "Computational Fluid Dyanmics",
@@ -208,7 +209,7 @@
                 "filename": "noah-kleven-headshot.jpg",
                 "alt": "Noah Kleven headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/noah-kleven/"
         },
         {
             "role": "Fuselage Fabrication",
@@ -221,7 +222,7 @@
                 "filename": "jack-mccafrey-headshot.jpg",
                 "alt": "Jack McCaffrey headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/jack-mccaffrey-mcc/"
         },
         {
             "role": "Electronics",
@@ -234,20 +235,20 @@
                 "filename": "jaymes-christie-headshot.jpg",
                 "alt": "Jaymes Christie headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/jaymes-christie-592750384/"
         },
         {
             "role": "Landing Gear",
-            "name": "Prithvi S Venkatesh",
+            "name": "Prithvi Venkatesh",
             "hometown": "Hopkinton, MA",
             "major": "Mechanical Engineering",
             "email": "psvenkatesh@wisc.edu",
             "year": 5,
             "headshot": {
                 "filename": "prithvi-s-venkatesh-headshot.jpg",
-                "alt": "Prithvi S Venkatesh headshot"
+                "alt": "Prithvi Venkatesh headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/prithvivenkatesh/"
         },
         {
             "role": "Tail Lead",
@@ -260,7 +261,7 @@
                 "filename": "amanda-tichenor-headshot.jpg",
                 "alt": "Amanda Tichenor headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/amanda-tichenor/"
         },
         {
             "role": "Tail Lead",
@@ -273,7 +274,7 @@
                 "filename": "ian-blake-headshot.jpg",
                 "alt": "Ian Blake headshot"
             },
-            "linkedinUrl": "https://www.linkedin.com/company/sae-aero-uw/"
+            "linkedinUrl": "https://www.linkedin.com/in/ian-blake-/"
         }
     ]
 }
